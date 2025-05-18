@@ -177,7 +177,7 @@ li{
 .btn-one {
     position: relative;
     display: inline-block;
-    background: #e9212e;
+    background: #d5a832;
     color: #ffffff;
     font-size: 15px;
     line-height: 60px;
@@ -1361,17 +1361,6 @@ select:focus {
 
 
 
-.header-lower-style1 {
-    position: relative;
-    display: block;
-    background: #f6f6f6;
-    padding: 30px 0;
-}
-.header-lower-style1 .inner-content{
-    position: relative;
-    display: block; 
-    border-right: 1px solid #dddddd;
-}
 .header-contact-info {
     position: relative;
     display: block;

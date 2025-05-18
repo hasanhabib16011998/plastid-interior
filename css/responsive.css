@@ -1,7 +1,18 @@
 
 /* Large Layout: 1200px. */
 @media only screen and (min-width: 1200px){
-
+    .header-lower-style1 {
+        position: relative;
+        display: block;
+        background: #f6f6f6;
+        padding: 30px 0;
+    }
+    
+    .header-lower-style1 .inner-content{
+        position: relative;
+        display: block; 
+        border-right: 1px solid #dddddd;
+    }
     
     
  
@@ -35,6 +46,18 @@
 }
 .mainmenu-right.style2 {
     margin-left: 0px;
+}
+.header-lower-style1 {
+    position: relative;
+    display: block;
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
+.header-lower-style1 .inner-content{
+    position: relative;
+    display: block; 
+    border-right: 1px solid #dddddd;
 }
     
   
@@ -70,7 +93,19 @@
 .instagram-items li {
     width: 254px;
 }    
- 
+
+.header-lower-style1 {
+    position: relative;
+    display: block;
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
+.header-lower-style1 .inner-content{
+    position: relative;
+    display: block; 
+    border-right: 1px solid #dddddd;
+}
    
     
     
@@ -94,9 +129,20 @@
     margin-right: 20px;
 }
 
-.header-lower-style1 .inner-content {
-    border: none;
-}    
+
+.header-lower-style1 {
+    position: relative;
+    display: block;
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
+.header-lower-style1 .inner-content{
+    position: relative;
+    display: block; 
+    border:none;
+}
+
 .header-contact-info {
     border-left: none;
     padding-left: 0;
@@ -712,10 +758,15 @@ li .single-footer-contact-info .text p br{
     margin: 15px 0;
 }
 
+
+.header-lower-style1 {
+    position: relative;
+    display: none;
+    background: #f6f6f6;
+    padding: 30px 0;
+}
     
-.header-lower-style1 .inner-content {
-    border: none;
-}    
+  
 .header-contact-info {
     border-left: none;
     padding-left: 0;
@@ -1476,19 +1527,17 @@ li .single-footer-contact-info .inner {
     position: relative;
     display: block;
     padding: 0 10px;
-    margin-top: -45px;
+
 }    
 .logo-box-style1 {
     position: absolute;
-    margin: 22px 0 23px;
+    margin: 0px 0 23px;
     top: 0;
     left: 10px;
     float: none !important;
     z-index: 33;
 }
-.logo-box-style1 img {
-    max-width: 70%;
-}    
+   
     
 .main-menu-box {
     position: relative;
@@ -1515,7 +1564,7 @@ li .single-footer-contact-info .inner {
     max-width: 350px;
 }  
 .header-upper-style1.fixed-header .logo-box-style1 {
-    margin: 22px 0 23px;
+    margin: 0px 0 23px;
 }
 .header-upper-style1.fixed-header .outer-search-box {
     padding: 15px 0;
@@ -1524,8 +1573,17 @@ li .single-footer-contact-info .inner {
     margin: 15px 0;
 }
 
+
+.header-lower-style1 {
+    position: relative;
+    display: none;
+    background: #f6f6f6;
+    padding: 30px 0;
+}
+
 .header-lower-style1 .inner-content {
     border: none;
+    display:none !important;
 }    
 .header-contact-info {
     border-left: none;
@@ -2843,25 +2901,25 @@ li .single-footer-contact-info .inner {
     z-index: 12;
 }    
 .main-menu .navbar-header .navbar-toggle {
-    background: #000100;
-    border: 1px dashed #000100;
+    border: 1px solid #ecd298;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 10px;
     float: none;
     margin: 0;
     z-index: 7;
-    width: 50px;
-    height: 47px;
+    width: 45px;
+    height: 40px;
     cursor: pointer;
     padding: 0 9px;
     position: absolute;
     top: 0;
     right: 0;
 }
+
 .main-menu .navbar-header .navbar-toggle .icon-bar {
     display: block;
-    background: #e7e7e7;
-    width: 30px;
+    background: #141414;
+    width: 25px;
     height: 2px;
     border-radius: 1px;
 }
@@ -2950,7 +3008,7 @@ li .single-footer-contact-info .inner {
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 .main-menu .navbar-collapse > .navigation > li.current > a{
     color: #ffffff !important;
-    background: #e9212e;
+    background: #d5a832;
 }        
 .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
     display:block;
