@@ -971,7 +971,7 @@ select:focus {
     display: block;
     padding: 0 40px;
     margin-top: 0px;
-    background: #ffffff;
+    background: #ffffffed;
     -webkit-box-shadow: 0px 4px 11px -1px #ECECEC; 
     box-shadow: 0px 4px 11px -1px #ECECEC;
     z-index: 9999999999;
