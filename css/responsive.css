@@ -123,7 +123,9 @@
 =============================================
 ***/ 
 .header-upper-style1 .inner-container {
-    padding: 0 20px;
+    position: relative;
+    display: block;
+    padding: 0 10px;
 }    
 .main-menu .navigation > li {
     margin-right: 20px;
@@ -713,12 +715,10 @@ li .single-footer-contact-info .text p br{
 .header-upper-style1 .inner-container {
     position: relative;
     display: block;
-    padding: 0 20px;
-    margin-top: -45px;
+    padding: 0 10px;
 }    
 .logo-box-style1 {
     position: absolute;
-    margin: 15px 0;
     top: 0;
     left: 20px;
     float: none !important;
@@ -747,9 +747,17 @@ li .single-footer-contact-info .text p br{
 }    
 .header-upper-style1.fixed-header .inner-container {
     max-width: 690px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* The magic! */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #222;
+    
 }  
 .header-upper-style1.fixed-header .logo-box-style1 {
-    margin: 15px 0;
+    margin: 0px 0;
 } 
 .header-upper-style1.fixed-header .outer-search-box {
     padding: 15px 0;
@@ -1531,7 +1539,6 @@ li .single-footer-contact-info .inner {
 }    
 .logo-box-style1 {
     position: absolute;
-    margin: 0px 0 23px;
     top: 0;
     left: 10px;
     float: none !important;
@@ -1559,12 +1566,20 @@ li .single-footer-contact-info .inner {
 }
 .mainmenu-right .cart-box {
     margin: 15px 0;
+    
 }    
 .header-upper-style1.fixed-header .inner-container {
     max-width: 350px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* The magic! */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #222;
 }  
 .header-upper-style1.fixed-header .logo-box-style1 {
-    margin: 0px 0 23px;
+    margin: 0px 0 0px;
 }
 .header-upper-style1.fixed-header .outer-search-box {
     padding: 15px 0;
@@ -2934,7 +2949,7 @@ li .single-footer-contact-info .inner {
 }   
 .main-menu .navbar-collapse .navigation > li{
     display: block;
-    margin: 0px !important;
+    margin: 4px 0px !important;
     padding: 0;
     float: none !important;
     width:100%;
@@ -2966,6 +2981,13 @@ li .single-footer-contact-info .inner {
     top:0px !important;
     left:0px !important;
     visibility: visible !important;
+    background: rgb(0 0 0 / 29%);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
 }  
 .main-menu .navbar-collapse .navigation li:last-child,
 .main-menu .navbar-collapse .navigation li ul li:last-child,
